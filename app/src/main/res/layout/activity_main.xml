@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+                        >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/my_nanodegree_apps_label_text"
+            android:id="@+id/my_nanodegree_apps_label_text_view"
+            android:textSize="@dimen/my_nanodegree_apps_label_size"/>
+
+        <Button
+            style="@style/MyAppPortfolioButtons"
+            android:text="@string/popular_movies_button_text"
+            android:id="@+id/popular_movies_button"/>
+
+        <Button
+            style="@style/MyAppPortfolioButtons"
+            android:text="@string/stock_hawk_button_text"
+            android:id="@+id/stock_hawk_button"/>
+
+        <Button
+            style="@style/MyAppPortfolioButtons"
+            android:text="@string/build_it_bigger_button_text"
+            android:id="@+id/build_it_bigger_button"/>
+
+        <Button
+            style="@style/MyAppPortfolioButtons"
+            android:text="@string/make_your_app_material_button_text"
+            android:id="@+id/make_your_app_material_button"/>
+
+        <Button
+            style="@style/MyAppPortfolioButtons"
+            android:text="@string/go_ubiquitous_button_text"
+            android:id="@+id/go_ubiquitous_button"/>
+
+        <Button
+            style="@style/MyAppPortfolioButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/capstone_button_text"
+            android:id="@+id/capstone_button"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
